@@ -5,9 +5,11 @@
 A [Blurhash](https://github.com/woltapp/blurhash) implementation based on
 [blurhash.net](https://github.com/MarkusPalcer/blurhash.net) for SkiaSharp.
 
-Allows to encode a `SoftwareBitmap` into a blurhash and decode a blurhash into
-`SoftwareBitmap` again. Several portions of the code are directly copy-pasted
+Allows to encode a `SKBitmap` into a blurhash and decode a blurhash into
+`SKBitmap` again. Several portions of the code are directly copy-pasted
 from the [System.Drawing implementation](https://github.com/MarkusPalcer/blurhash.net/tree/master/Blurhash-System.Drawing).
+
+Tested on UWP and Android.
 
 ## Example usage
 
