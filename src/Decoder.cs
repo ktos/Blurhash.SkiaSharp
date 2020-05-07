@@ -3,7 +3,7 @@ using SkiaSharp;
 using System;
 using System.Linq;
 
-namespace Blurhash.Skia
+namespace Blurhash.SkiaSharp
 {
     /// <summary>
     /// The Blurhash decoder for SkiaSharp

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Blurhash.SkiaSharp</PackageId>
+    <Authors>Markus Palcer, Marcin Badurowicz</Authors>    
+    <NoWarn>$(NoWarn);CS1998</NoWarn>
+    <Description>Bridge library to use Blurhash with SkiaSharp</Description>
+    <PackageVersion>1.0.0</PackageVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageTags>blurhash;image encoding;skiasharp</PackageTags>
+    <PackageProjectUrl>https://github.com/ktos/Blurhash.SkiaSharp</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>Copyright © 2020 Marcin Badurowicz, Markus Palcer</Copyright>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>E:\Marcin\!Projekty\Blurhash.SkiaSharp\src\Blurhash.SkiaSharp.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blurhash.Core" Version="1.1.0" />
+    <PackageReference Include="SkiaSharp" Version="1.68.1.1" />
+  </ItemGroup>
+
+</Project>
