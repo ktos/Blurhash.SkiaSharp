@@ -2,6 +2,8 @@
 
 [![NuGet](https://img.shields.io/nuget/v/Blurhash.SkiaSharp.svg)](https://www.nuget.org/packages/BlurHash.SkiaSharp/)
 
+[![Build Status](https://dev.azure.com/ktos/Blurhash.SkiaSharp/_apis/build/status/Blurhash.SkiaSharp%20CI?branchName=master)](https://dev.azure.com/ktos/Blurhash.SkiaSharp/_build/latest?definitionId=9&branchName=master)
+
 A [Blurhash](https://github.com/woltapp/blurhash) implementation based on
 [blurhash.net](https://github.com/MarkusPalcer/blurhash.net) for SkiaSharp, thus
 fully available for Xamarin and other .NET Standard 2.0 platforms.
