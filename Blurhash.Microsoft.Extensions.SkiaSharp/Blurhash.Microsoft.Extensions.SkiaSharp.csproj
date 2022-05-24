@@ -30,7 +30,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\Blurhash.SkiaSharp.csproj" />
+    <ProjectReference Include="..\Blurhash.SkiaSharp\Blurhash.SkiaSharp.csproj" />
   </ItemGroup>
 
 </Project>
