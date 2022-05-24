@@ -1,11 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <PackageId>Blurhash.SkiaSharp</PackageId>
-    <Authors>Markus Palcer, Marcin Badurowicz</Authors>    
+    <PackageId>Blurhash.Microsoft.Extensions.SkiaSharp</PackageId>
+    <Authors>Markus Palcer, Marcin Badurowicz</Authors>
     <NoWarn>$(NoWarn);CS1998</NoWarn>
-    <Description>Bridge library to use Blurhash with SkiaSharp</Description>
+    <Description>Bridge library to use Blurhash with SkiaSharp and ServiceExtensions</Description>
     <PackageVersion>2.0.0</PackageVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
     <PackageTags>blurhash;image encoding;skiasharp</PackageTags>
@@ -26,6 +26,11 @@
   <ItemGroup>
     <PackageReference Include="Blurhash.Core" Version="2.0.0" />
     <PackageReference Include="SkiaSharp" Version="2.88.0" />
+    <PackageReference Include="Blurhash.Microsoft.Extensions.Core" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\Blurhash.SkiaSharp.csproj" />
   </ItemGroup>
 
 </Project>
