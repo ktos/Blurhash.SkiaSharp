@@ -230,5 +230,5 @@ _Pvt_Extensions
 
 # FAKE - F# Make
 .fake/
-/Blurhash.SkiaSharp.sln
+
 TestMobileApp/
