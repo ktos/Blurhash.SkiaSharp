@@ -26,7 +26,7 @@
   <ItemGroup>
     <PackageReference Include="Blurhash.Core" Version="4.0.0" />
     <PackageReference Include="SkiaSharp" Version="3.119.2" />
-    <PackageReference Include="Blurhash.Microsoft.Extensions.Core" Version="2.0.0" />
+    <PackageReference Include="Blurhash.Microsoft.Extensions.Core" Version="4.0.0" />
   </ItemGroup>
 
   <ItemGroup>
