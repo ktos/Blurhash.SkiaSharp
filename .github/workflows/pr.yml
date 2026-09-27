@@ -11,7 +11,7 @@ jobs:
       - name: Setup dotnet
         uses: actions/setup-dotnet@v6
         with:
-          dotnet-version: '6.x'
+          dotnet-version: '10.x'
       - name: Restore packages
         run: dotnet restore
       - name: Build
